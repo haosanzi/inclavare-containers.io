@@ -1,3 +1,4 @@
+# this makefile is for xxx
 image := jimmysong/website-builder:2019-07-18
 docker := docker run -t -i --sig-proxy=true --rm -v $(shell pwd):/site -w /site -p 1313:1313 $(image)
 build:
